@@ -9,7 +9,7 @@ public class Main {
 	private static Scanner sc = new Scanner(System.in);
 	
 	int ans;
-	String URL;
+	String URL = "https://www.britannica.com";
 	
 	public Main()
 	{
@@ -80,7 +80,7 @@ public class Main {
 			{
 			case 1:
 				Path.deleteFiles();
-				System.out.println("Please Enter the URL \"Make sure https:\\\\ is added at the start\":\n");
+				System.out.println("Please Enter the URL \"Make sure https:// is added at the start\":\n");
 				Main.setURL(sc.next());
 				if(!Main.isValid(Main.getURL())) {
 					 System.out.println("Enterd URL " + Main.getURL() + " isn't valid");
@@ -101,6 +101,7 @@ public class Main {
 				break;
 			case 2:
 				Path.deleteFiles();
+				Main.setURL("https://www.britannica.com");
 				System.out.println("************************************************************");
 				System.out.println("\tWeb Crawling Started\t");
 				System.out.println("************************************************************");
