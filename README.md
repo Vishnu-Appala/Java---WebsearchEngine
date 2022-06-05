@@ -5,7 +5,3 @@ Advanced Computing Concept Course's project
 
 SUBMITTED BY: 
 Vishnu Appala
-Bharath Gali
-Karnakar Reddy Asireddy
-Rohith Raju Kanchanapalli
-Neeraj Suhaas Atluri
